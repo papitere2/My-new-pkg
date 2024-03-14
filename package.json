@@ -1,0 +1,82 @@
+{
+  "name": "@carlos8a/rollup-react-library-template",
+  "version": "0.1.0",
+  "description": "A template and quick-starter kit for creating your own modern React library using Rollup.",
+  "main": "dist/cjs/bundle.js",
+  "module": "dist/esm/bundle.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "lint": "eslint src",
+    "prettier": "prettier --write \"src/**/*.{ts,tsx,js,mdx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosUlisesOchoa/rollup-react-library-template.git"
+  },
+  "author": "Carlos Ulises Ochoa",
+  "license": "MIT",
+  "keywords": [
+    "react-template",
+    "react-library",
+    "typescript",
+    "react",
+    "template"
+  ],
+  "bugs": {
+    "url": "https://github.com/CarlosUlisesOchoa/rollup-react-library-template/issues"
+  },
+  "homepage": "https://github.com/CarlosUlisesOchoa/rollup-react-library-template",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "@babel/preset-typescript": "^7.23.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.2.55",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "autoprefixer": "^10.4.17",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "i": "^0.3.7",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "npm": "^10.4.0",
+    "prettier": "^3.2.5",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rimraf": "^5.0.5",
+    "rollup": "^4.9.6",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-postcss-modules": "^2.1.1",
+    "sass": "^1.70.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  }
+}
